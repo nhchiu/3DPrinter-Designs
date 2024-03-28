@@ -15,6 +15,6 @@ Thank you!
 
 ## License
 
-![GitHub License](https://img.shields.io/github/license/nhchiu/3DPrinter-Designs?style=flat)
+[![CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 Unless being specifically noted, the work in the repository is licensed under [CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1)
