@@ -28,22 +28,22 @@ If you would like to support my work, the following platforms are available. Tha
 - Variants for different Bowden tube retainers.
 - Low profile and low center of mass.
 
-  > \[\*\]: The effect of the oblique/twirling teeth still needs more testing.
-  >
-  > Here are the pros and cons from my own experience with and what I heard about [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
-  >
-  > Pros:
-  >
-  > - It requires very little tension to provide a very good grip on the filament.
-  > - The inclined tooth profile cause less deviation on the flow rate when it leaves tooth marks on the filament.
-  >
-  > Cons:
-  >
-  > - It creates a twisting force on the filament when there is higher back pressure in the hotend.
-  >   It might cause issues when printing flexible materials or at high flow rate.
-  >
-  > I haven't seen issues with the HGX 2.0 gears so far but your millage may vary.
-  >
+> [!NOTE]
+> \[\*\]: The effect of the oblique/twirling teeth still needs more testing.
+>
+> Here are the pros and cons from my own experience with and what I heard about [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
+>
+> Pros:
+>
+> - It requires very little tension to provide a very good grip on the filament.
+> - The inclined tooth profile cause less deviation on the flow rate when it leaves tooth marks on the filament.
+>
+> Cons:
+>
+> - It creates a twisting force on the filament when there is higher back pressure in the hotend.
+>   It might cause issues when printing flexible materials or at high flow rate.
+>
+> I haven't seen issues with the HGX 2.0 gears so far but your millage may vary.
 
 ## Weight Comparison
 
@@ -56,16 +56,16 @@ From left to right:
 
 |  Extruder  | CNC<br />VzHextrudort | Sherpa mini | Hummingbird | ProtoXtruder | ProtoXtruder 2.0 | HGX 2.0 |
 | :--------: | :-------------------: | :---------: | :---------: | :----------: | :--------------: | :-----: |
-| Weight (g) |         40.0         |    34.9    |    49.6    |     46.4     |       39.5       |  51.0  |
+| Weight (g) |         40.0          |    34.9     |    49.6     |     46.4     |       39.5       |  51.0   |
 
 ![weight](./Images/weight.jpg)
 
 ## BOM
 
-- Oblique Tooth HGX 2.0 Extruder Gear Kit ([AliExpress](https://www.aliexpress.com/item/1005005911670091.html)). (I am not very sure what's included in the gear kit. I'll update here as I get confirmation or feedbacks.)
+- Oblique Tooth HGX 2.0 Extruder Gear Kit ([This](https://www.aliexpress.com/item/1005006860114418.html) or [this](https://www.aliexpress.com/item/1005005911670091.html)). ~~(I am not very sure what's included in the gear kit. I'll update here as I get confirmation or feedbacks.)~~
   - MR63ZZ bearings x 6
-  - 3mm shaft (16mm length) x 1
-  - 3mm shaft (14mm length) x 1
+  - 3mm shaft (18mm length) x 1, (16mm - 18mm could work)
+  - 3mm shaft (16mm length) x 1, (14mm - 16mm could work)
   - Large extrusion gear (with oblique teeth) x 2
   - Reduction gear x 1
 - Fasteners:
@@ -88,14 +88,17 @@ It will need *some* bridging.
 1. Install M3 heat-set inserts.
 
    ![Assembly1](./Images/Assembly1.png)
+
 2. Insert the MR63 bearings into the extrusion gears. (Two for each gear)
 
    ![Assembly2](./Images/Assembly2.png)
+
 3. Now the extruder can be put together with the fasteners.
 
    **Note that the M3x16 SHCS going in from the motor side is threading into plastic, and it shouldn't be tightened. Only turn it until the screwhead is flush with the printed part.**
 
    ![Assembly3](./Images/Assembly3.png)
+
 4. (Optional) Add the Bowden tube retainer of your choice.
 
    **Remove the bottom half of the ECAS04. (the black parts in plastic/rubber)**
@@ -115,6 +118,10 @@ gear_ratio: 44:10, 37:17
 **You might need to invert the `dir_pin` of the extruder.**
 
 ## Changelog
+
+### 2024-04-19
+
+- Update to match the pin length of the gear kit.
 
 ### 2024-03-28
 
