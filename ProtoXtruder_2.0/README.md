@@ -3,7 +3,7 @@
 ![Thumbnail](./Images/Thumbnail.jpg)
 
 The sequel of [ProtoXtruder](https://www.printables.com/model/436425-protoxtruder)!
-With the new gears of [HGX 2.0 Extruder](https://www.aliexpress.com/item/1005005911670091.html),
+With the new gears of [HGX 2.0 Extruder](https://s.click.aliexpress.com/e/_Dmy9Crl) **(affiliate link)**,
 it becomes thinner and lighter while providing the same benefits of the large-sized gears.
 
 Although it is named ProtoXtruder **2.0**, it's not a direct upgrade from the previous design.
@@ -31,7 +31,7 @@ If you would like to support my work, the following platforms are available. Tha
 > [!NOTE]
 > \[\*\]: The effect of the oblique/twirling teeth still needs more testing.
 >
-> Here are the pros and cons from my own experience with and what I heard about [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
+> Here are the pros and cons from my own experience with and what I've heard about [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
 >
 > Pros:
 >
@@ -62,7 +62,7 @@ From left to right:
 
 ## BOM
 
-- Oblique Tooth HGX 2.0 Extruder Gear Kit ([This](https://www.aliexpress.com/item/1005006860114418.html) or [this](https://www.aliexpress.com/item/1005005911670091.html)). ~~(I am not very sure what's included in the gear kit. I'll update here as I get confirmation or feedbacks.)~~
+- Oblique Tooth HGX 2.0 Extruder Gear Kit ([This](https://s.click.aliexpress.com/e/_Dmy9Crl) or [this](https://s.click.aliexpress.com/e/_Dn3gb6n)) **(Both are affiliate links)**. ~~(I am not very sure what's included in the gear kit. I'll update here as I get confirmation or feedbacks.)~~
   - MR63ZZ bearings x 6
   - 3mm shaft (18mm length) x 1, (16mm - 18mm could work)
   - 3mm shaft (16mm length) x 1, (14mm - 16mm could work)
@@ -135,7 +135,7 @@ Thanks to [Polymaker](https://polymaker.com/) for sponsoring me the filament for
 
 Also, thanks to Haldis / HS3DPrinter for sending me a HGX 2.0 extruder for me to make
 designs with their new gears.
-Their products are available on [their website](https://hs3dprinter.com/) and [AliExpress](https://haldis3d.aliexpress.com/store/910334039).
+Their products are available on [their website](https://hs3dprinter.com/) and [AliExpress](https://s.click.aliexpress.com/e/_DchaZFt) **(affiliate link)**.
 
 ## Photo
 
