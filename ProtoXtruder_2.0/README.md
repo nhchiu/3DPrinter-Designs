@@ -68,6 +68,7 @@ From left to right:
   - 3mm shaft (16mm length) x 1, (14mm - 16mm could work)
   - Large extrusion gear (with oblique teeth) x 2
   - Reduction gear x 1
+  - Thumb screw and tensioner spring
 - Fasteners:
   - M3x8mm BHCS x 1
   - M3x16mm SHCS x 3
