@@ -19,6 +19,9 @@ If you would like to support my work, the following platforms are available. Tha
 [![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/H2H4FT4J7)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/2nhchiu)
 
+> This page contains affiliate links. If you purchase products through these links, I may earn a small commission at no additional cost to you.
+> This helps support the development and maintenance of my projects. Thank you for your support!
+
 ## Features
 
 - High gear reduction ratio (44:10, 37:17).
