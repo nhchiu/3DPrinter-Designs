@@ -2,19 +2,19 @@
 
 ![Thumbnail](./Images/Thumbnail.jpg)
 
-The sequel of [ProtoXtruder](https://www.printables.com/model/436425-protoxtruder)!
-With the new gears of [HGX 2.0 Extruder](https://s.click.aliexpress.com/e/_Dmy9Crl) **(affiliate link)**,
-it becomes thinner and lighter while providing the same benefits of the large-sized gears.
+This is the successor to [ProtoXtruder](https://www.printables.com/model/436425-protoxtruder).
+With the new gears from the [HGX 2.0 Extruder](https://s.click.aliexpress.com/e/_Dmy9Crl) **(affiliate link)**,
+the design becomes thinner and lighter while preserving the benefits of the larger gears.
 
 Although it is named ProtoXtruder **2.0**, it's not a direct upgrade from the previous design.
-There's not much you can reuse in the BOM.
+There isn't much you can reuse in the BOM.
 
-Refer to the dimensions in the drawing below for compatibility with your printer.
-The mounting holes are compatible with [Sherpa Mini Extruder](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder).
+Refer to the drawing below for dimensions and compatibility with your printer.
+The mounting holes are compatible with the [Sherpa Mini Extruder](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder).
 
 ![Dimension](./Images/Dimension.png)
 
-If you would like to support my work, the following platforms are available. Thank you!
+If you'd like to support my work, the following platforms are available. Thank you!
 
 [![ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/H2H4FT4J7)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/2nhchiu)
@@ -24,36 +24,37 @@ If you would like to support my work, the following platforms are available. Tha
 
 ## Features
 
-- High gear reduction ratio (44:10, 37:17).
-- Large extrusion gears (18mm diameter) providing large filament contact area.
-- Twirling hobbed teeth for nice filament grip and consistent flow.\*
-- Compact and light weight. All the printed parts can be printed in about 1hr.
+- High gear reduction ratios (44:10, 37:17).
+- Large extrusion gears (18 mm diameter) providing a large filament contact area.
+- Oblique/twirling hobbed teeth for improved filament grip and consistent flow.*
+- Compact and lightweight. All printed parts can be produced in about one hour.
 - Variants for different Bowden tube retainers.
 - Low profile and low center of mass.
+- Optional support for a toolhead filament sensor.
 
 > [!NOTE]
-> \[\*\]: The effect of the oblique/twirling teeth still needs more testing.
+> *: The effect of the oblique/twirling teeth still needs further testing.
 >
-> Here are the pros and cons from my own experience with and what I've heard about [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
+> Below are pros and cons based on my experience and feedback regarding the [Vz-HextrudORT](https://github.com/VzBoT3D/Vz-HextrudORT):
 >
 > Pros:
 >
 > - It requires very little tension to provide a very good grip on the filament.
-> - The inclined tooth profile cause less deviation on the flow rate when it leaves tooth marks on the filament.
+> - The inclined tooth profile causes less deviation in flow rate when it leaves tooth marks on the filament.
 >
 > Cons:
 >
-> - It creates a twisting force on the filament when there is higher back pressure in the hotend.
->   It might cause issues when printing flexible materials or at high flow rate.
+> - It introduces a twisting force on the filament under higher back pressure from the hotend.
+>   This may cause issues when printing flexible materials or at high flow rates.
 >
-> I haven't seen issues with the HGX 2.0 gears so far but your millage may vary.
+> I haven't observed issues with the HGX 2.0 gears so far, but your mileage may vary.
 
 ## Weight Comparison
 
-Just as a rough reference. They are not printed in the exact same material and printing profile.
+This is a rough reference; the parts were not printed in identical materials or with identical print profiles.
 
-The CNC Vz-Hextrudort I got is from the early batches.
-They added more cutouts in later versions so the newer ones should be lighter.
+The CNC Vz-HextrudORT I received is from early batches.
+Later versions added more cutouts, so newer ones are likely lighter.
 
 From left to right:
 
@@ -65,25 +66,25 @@ From left to right:
 
 ## BOM
 
-- Oblique Tooth HGX 2.0 Extruder Gear Kit ([This](https://s.click.aliexpress.com/e/_Dmy9Crl) or [this](https://s.click.aliexpress.com/e/_Dn3gb6n)) **(Both are affiliate links)**. ~~(I am not very sure what's included in the gear kit. I'll update here as I get confirmation or feedbacks.)~~
-  - MR63ZZ bearings x 6
-  - 3mm shaft (18mm length) x 1, (16mm - 18mm could work)
-  - 3mm shaft (16mm length) x 1, (14mm - 16mm could work)
-  - Large extrusion gear (with oblique teeth) x 2
-  - Reduction gear x 1
+- Oblique Tooth HGX 2.0 Extruder Gear Kit ([this](https://s.click.aliexpress.com/e/_Dmy9Crl) or [this](https://s.click.aliexpress.com/e/_Dn3gb6n)) **(both are affiliate links)**. (I'm not certain what's included in the gear kit; I'll update this as I receive confirmation or feedback.)
+  - MR63ZZ bearings × 6
+  - 3 mm shaft (18 mm length) × 1 (16–18 mm may work)
+  - 3 mm shaft (16 mm length) × 1 (14–16 mm may work)
+  - Large extrusion gear (with oblique teeth) × 2
+  - Reduction gear × 1
   - Thumb screw and tensioner spring
 - Fasteners:
-  - M3x8mm BHCS x 1
-  - M3x16mm SHCS x 3
-  - M3x20mm SHCS x 1
-  - Heat set inserts (**Voron size - M3 x D5 x H4**) x 3
-- NEMA14 36mm round pancake motor with 10T gear (8T should be compatible)
+  - M3 × 8 mm BHCS × 1
+  - M3 × 16 mm SHCS × 3
+  - M3 × 20 mm SHCS × 1
+  - Heat-set inserts (Voron size — M3 × D5 × H4) × 3
+- NEMA14 36 mm round pancake motor with 10T gear (8T should be compatible)
 
 ## Print Settings
 
-At least 3 perimeters, 40% infill. ABS or ASA recommended.
+Use at least 3 perimeters and 40% infill. ABS or ASA recommended.
 
-All STL files are oriented in the printing orientation. No support required.
+All STL files are oriented for printing; no supports required.
 
 It will need *some* bridging.
 
@@ -93,25 +94,32 @@ It will need *some* bridging.
 
    ![Assembly1](./Images/Assembly1.png)
 
-2. Insert the MR63 bearings into the extrusion gears. (Two for each gear)
+2. Insert the MR63 bearings into the extrusion gears (two per gear).
 
    ![Assembly2](./Images/Assembly2.png)
 
-3. Now the extruder can be put together with the fasteners.
+3. Assemble the extruder using the fasteners.
 
-   **Note that the M3x16 SHCS going in from the motor side is threading into plastic, and it shouldn't be tightened. Only turn it until the screwhead is flush with the printed part.**
+   **Note: the M3 × 16 SHCS inserted from the motor side threads into plastic - do not overtighten.**
+   **Tighten only until the screw head is flush with the printed part.**
 
    ![Assembly3](./Images/Assembly3.png)
 
 4. (Optional) Add the Bowden tube retainer of your choice.
 
-   **Remove the bottom half of the ECAS04. (the black parts in plastic/rubber)**
+   **Remove the bottom half of the ECAS04 (the black plastic/rubber parts).**
 
    ![retainers](./Images/retainers.png)
 
+## Toolhead Filament Sensor
+
+Use in conjunction with this **Toolhead Filament Sensor for ProtoXtruder 2.0**
+
+<iframe src="https://www.printables.com/embed/1589915" width="400" height="445" scrolling="no" frameborder="0"></iframe>
+
 ## Firmware Settings
 
-For [klipper firmware](https://www.klipper3d.org/):
+For [Klipper firmware](https://www.klipper3d.org/):
 
 ```ini
 [extruder]
@@ -123,6 +131,10 @@ gear_ratio: 44:10, 37:17
 
 ## Changelog
 
+### 2026-02-08
+
+- Add support for toolhead filament sensor
+
 ### 2024-04-19
 
 - Update to match the pin length of the gear kit.
@@ -133,12 +145,11 @@ gear_ratio: 44:10, 37:17
 
 ## Special Thanks
 
-Designing and testing an extruder design takes a lot of time and many iterations.
+Designing and testing an extruder takes a lot of time and many iterations.
 
-Thanks to [Polymaker](https://polymaker.com/) for sponsoring me the filament for printing many prototypes.
+Thanks to [Polymaker](https://polymaker.com/) for sponsoring the filament used to print many prototypes.
 
-Also, thanks to Haldis / HS3DPrinter for sending me a HGX 2.0 extruder for me to make
-designs with their new gears.
+Also thanks to Haldis / HS3DPrinter for sending me an HGX 2.0 extruder so I could design with their new gears.
 Their products are available on [their website](https://hs3dprinter.com/) and [AliExpress](https://s.click.aliexpress.com/e/_DchaZFt) **(affiliate link)**.
 
 ## Photo
